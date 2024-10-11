@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" errors="0" skipped="4">
+  <testsuite name="Home Page" timestamp="2024-10-11T10:57:26" time="0.009" tests="4" failures="0" errors="0" skipped="4">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Home Page"/>
+      <property name="capabilities" value="firefox.131_0.windows"/>
+      <property name="file" value="file://./test/specs/chai.js"/>
+    </properties>
+    <testcase classname="firefox.131_0.windows.Home_Page" name="should show the banner carousel and pause it" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="firefox.131_0.windows.Home_Page" name="should show the banner title" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="firefox.131_0.windows.Home_Page" name="should contain link on banner button and verify it is clickable" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="firefox.131_0.windows.Home_Page" name="should click on the sell button and verify the new url" time="0">
+      <skipped/>
+      <system-out><![CDATA[
+COMMAND: DELETE /session/bd12633a3b257d1aa926e512e0337c2220cbaa92 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>tcase>
+  </testsuite>
+</testsuites>

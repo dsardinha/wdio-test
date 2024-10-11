@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="1" errors="0" skipped="0">
+  <testsuite name="Ebay Product Search" timestamp="2024-10-11T10:58:01" time="19.445" tests="4" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Product Search"/>
+      <property name="capabilities" value="chrome.129_0_6668_59.windows"/>
+      <property name="file" value="file://./test/specs/search.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_59.windows.Ebay_Product_Search" name="should open the main url and verify the title" time="3.875">
+      <system-out><![CDATA[
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/url - {"url":"https://www.ebay.co.uk/"}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/title - {}
+RESULT: {"url":"https://www.ebay.co.uk/"}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/title - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.129_0_6668_59.windows.Ebay_Product_Search" name="should search for a product and verify the search text value" time="14.593">
+      <failure message="Expect $(`#gh-ac`) to have property value&#xA;&#xA;Expected: &quot;Laptop1&quot;&#xA;Received: &quot;Laptop&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.D2E9407AE9254D9F8B9BA6E5C8632D3D.e.98/value - {"text":"Laptop"}
+RESULT: {"text":"Laptop"}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element - {"using":"css selector","value":"#gh-btn"}
+RESULT: {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.D2E9407AE9254D9F8B9BA6E5C8632D3D.e.103/click - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.D2E9407AE9254D9F8B9BA6E5C8632D3D.e.98/property/value - {}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.D2E9407AE9254D9F8B9BA6E5C8632D3D.e.98/property/value - {}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.164/property/value - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/screenshot - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#gh-ac`) to have property value
+
+Expected: "Laptop1"
+Received: "Laptop"
+    at Context.<anonymous> (file:///Users/davidsardinha/Desktop/automation/webdriverio-test/test/specs/search.js:18:35)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.129_0_6668_59.windows.Ebay_Product_Search" name="should redirect to a new page and verify the title and the search result counter text" time="0.488">
+      <system-out><![CDATA[
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element - {"using":"css selector","value":".srp-controls__count-heading"}
+RESULT: {"using":"css selector","value":".srp-controls__count-heading"}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.276","ELEMENT":"f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.276"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.276","ELEMENT":"f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.276"}]}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.276/text - {}
+RESULT: {}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/title - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.129_0_6668_59.windows.Ebay_Product_Search" name="should update the search category" time="0.482">
+      <system-out><![CDATA[
+RESULT: {}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.277/text - {}
+RESULT: {}
+COMMAND: POST /session/9438533925b267749169da772c977e10b9818289/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: GET /session/9438533925b267749169da772c977e10b9818289/element/f.55CF594B19B7950D9A0DF0CCD3D8CD4D.d.EF5B87F1E517B20EB39D4AB915F8561A.e.277/text - {}
+RESULT: {}
+COMMAND: DELETE /session/9438533925b267749169da772c977e10b9818289 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

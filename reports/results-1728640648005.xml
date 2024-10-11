@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Electronics page" timestamp="2024-10-11T10:57:35" time="6.988" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Electronics page"/>
+      <property name="capabilities" value="firefox.131_0.windows"/>
+      <property name="file" value="file://./test/specs/electronics.js"/>
+    </properties>
+    <testcase classname="firefox.131_0.windows.Electronics_page" name="open electronics page and verifies appliances subcategories list" time="6.985">
+      <system-out><![CDATA[
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element - {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/url - {"url":"https://www.ebay.co.uk/"}
+RESULT: {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/elements - {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+RESULT: {"url":"https://www.ebay.co.uk/"}
+RESULT: {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element - {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+RESULT: {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/ebddb727-06f6-4091-8e0a-0037dacac562/click - {}
+RESULT: {}
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/elements - {"using":"css selector","value":"section[id=\"s0-17-12_2-0-1[0]-0-0-0\"] ul li"}
+RESULT: {"using":"css selector","value":"section[id=\"s0-17-12_2-0-1[0]-0-0-0\"] ul li"}
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"b24e2f8d-fbc8-498a-a274-2ae5d0730c1e","ELEMENT":"b24e2f8d-fbc8-498a-a274-2ae5d0730c1e"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"b24e2f8d-fbc8-498a-a274-2ae5d0730c1e","ELEMENT":"b24e2f8d-fbc8-498a-a274-2ae5d0730c1e"}]}
+COMMAND: POST /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/elements - {"using":"css selector","value":"section[id=\"s0-17-12_2-0-1[0]-0-0-0\"] ul li"}
+RESULT: {"using":"css selector","value":"section[id=\"s0-17-12_2-0-1[0]-0-0-0\"] ul li"}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/b24e2f8d-fbc8-498a-a274-2ae5d0730c1e/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/d3ed19d8-93a9-4c41-91ae-41bfa4d036c5/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/0616a52a-4365-4da9-ac1c-125c788f0575/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/f338bd7f-d8c8-4c94-840d-42eb5e16e931/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/1d8fe2c5-6a61-4d1f-a77c-90fd65b6ead0/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/f00c55eb-bb71-4584-9e17-22dc6030dd21/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/e91008d5-fe71-4d9f-a38e-3c2f7095713d/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/120cd540-3f51-4806-8197-70a4e305b5c6/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/6b01ed88-ef15-4b67-97d1-8c213855812a/text - {}
+COMMAND: GET /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1/element/ccaed337-36bf-4736-bf6f-21ee847f2882/text - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/a240b8315d4eefb0371eca996eeeaa7841d46ec1 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

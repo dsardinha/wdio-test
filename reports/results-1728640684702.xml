@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="1" errors="0" skipped="0">
+  <testsuite name="Ebay Product Search" timestamp="2024-10-11T10:58:16" time="19.068" tests="4" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Ebay Product Search"/>
+      <property name="capabilities" value="firefox.131_0.windows"/>
+      <property name="file" value="file://./test/specs/search.js"/>
+    </properties>
+    <testcase classname="firefox.131_0.windows.Ebay_Product_Search" name="should open the main url and verify the title" time="3.017">
+      <system-out><![CDATA[
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/url - {"url":"https://www.ebay.co.uk/"}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/title - {}
+RESULT: {"url":"https://www.ebay.co.uk/"}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.131_0.windows.Ebay_Product_Search" name="should search for a product and verify the search text value" time="14.943">
+      <failure message="Expect $(`#gh-ac`) to have property value&#xA;&#xA;Expected: &quot;Laptop1&quot;&#xA;Received: &quot;Laptop&quot;"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/8bf1097d-7444-4b2c-a8a9-9c4e18e2c462/value - {"text":"Laptop"}
+RESULT: {"text":"Laptop"}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element - {"using":"css selector","value":"#gh-btn"}
+RESULT: {"using":"css selector","value":"#gh-btn"}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/0d2e5aba-deb1-454c-a600-4dcf874ea38b/click - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/8bf1097d-7444-4b2c-a8a9-9c4e18e2c462/property/value - {}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/8bf1097d-7444-4b2c-a8a9-9c4e18e2c462/property/value - {}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element - {"using":"css selector","value":"#gh-ac"}
+RESULT: {"using":"css selector","value":"#gh-ac"}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/77df5bbd-f3aa-48c2-8520-fa70994764ff/property/value - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/screenshot - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Expect $(`#gh-ac`) to have property value
+
+Expected: "Laptop1"
+Received: "Laptop"
+    at Context.<anonymous> (file:///Users/davidsardinha/Desktop/automation/webdriverio-test/test/specs/search.js:18:35)
+]]></system-err>
+    </testcase>
+    <testcase classname="firefox.131_0.windows.Ebay_Product_Search" name="should redirect to a new page and verify the title and the search result counter text" time="0.605">
+      <system-out><![CDATA[
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element - {"using":"css selector","value":".srp-controls__count-heading"}
+RESULT: {"using":"css selector","value":".srp-controls__count-heading"}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"7514b191-a35f-4f3f-a788-dce4cd93fc52","ELEMENT":"7514b191-a35f-4f3f-a788-dce4cd93fc52"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"7514b191-a35f-4f3f-a788-dce4cd93fc52","ELEMENT":"7514b191-a35f-4f3f-a788-dce4cd93fc52"}]}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/7514b191-a35f-4f3f-a788-dce4cd93fc52/text - {}
+RESULT: {}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/title - {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.131_0.windows.Ebay_Product_Search" name="should update the search category" time="0.499">
+      <system-out><![CDATA[
+RESULT: {}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/8f6beaa2-71aa-4703-9fbd-b9e615e3a6c5/text - {}
+RESULT: {}
+COMMAND: POST /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element - {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+RESULT: {"using":"css selector","value":"#gh-cat option:nth-child(1)"}
+COMMAND: GET /session/27e4a221fa71b84c0b61da1b32aefe260a455518/element/8f6beaa2-71aa-4703-9fbd-b9e615e3a6c5/text - {}
+RESULT: {}
+COMMAND: DELETE /session/27e4a221fa71b84c0b61da1b32aefe260a455518 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

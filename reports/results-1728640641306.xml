@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Electronics page" timestamp="2024-10-11T10:57:26" time="5.618" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Electronics page"/>
+      <property name="capabilities" value="chrome.129_0_6668_59.windows"/>
+      <property name="file" value="file://./test/specs/electronics.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_59.windows.Electronics_page" name="open electronics page and verifies appliances subcategories list" time="5.616">
+      <system-out><![CDATA[
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element - {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/url - {"url":"https://www.ebay.co.uk/"}
+RESULT: {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/elements - {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+RESULT: {"url":"https://www.ebay.co.uk/"}
+RESULT: {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/elements - {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+RESULT: {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element - {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+RESULT: {"using":"css selector","value":".vl-flyout-nav__js-tab > a[href*=\"7000259660\"]"}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.8816ED5EF86F5B179950836B34341703.e.72/click - {}
+RESULT: {}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/elements - {"using":"css selector","value":"section[id=\"s0-17-12_2-0-1[0]-0-0-0\"] ul li"}
+RESULT: {"using":"css selector","value":"section[id=\"s0-17-12_2-0-1[0]-0-0-0\"] ul li"}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.126","ELEMENT":"f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.126"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.126","ELEMENT":"f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.126"}]}
+COMMAND: POST /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/elements - {"using":"css selector","value":"section[id=\"s0-17-12_2-0-1[0]-0-0-0\"] ul li"}
+RESULT: {"using":"css selector","value":"section[id=\"s0-17-12_2-0-1[0]-0-0-0\"] ul li"}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.126/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.127/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.129/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.128/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.131/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.130/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.133/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.132/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.135/text - {}
+COMMAND: GET /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf/element/f.AC8B0CFE935D300358A36572B490537A.d.D3BB3F0013EC858479D692CA4B9272CB.e.134/text - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/6312118da8f0de1a47903f05ddc1d95bf89e55bf - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

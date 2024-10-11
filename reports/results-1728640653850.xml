@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" errors="0" skipped="0">
+  <testsuite name="Home Page" timestamp="2024-10-11T10:57:40" time="13.617" tests="4" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Home Page"/>
+      <property name="capabilities" value="chrome.129_0_6668_59.windows"/>
+      <property name="file" value="file://./test/specs/homepage.js"/>
+    </properties>
+    <testcase classname="chrome.129_0_6668_59.windows.Home_Page" name="should show the banner carousel and pause it" time="0.931">
+      <system-out><![CDATA[
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element - {"using":"css selector","value":".evo-banners.carousel--slides"}
+RESULT: {"using":"css selector","value":".evo-banners.carousel--slides"}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.35","ELEMENT":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.35"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.35","ELEMENT":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.35"}]}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element - {"using":"css selector","value":"button[class=\"carousel__playback\"]"}
+RESULT: {"using":"css selector","value":"button[class=\"carousel__playback\"]"}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.98","ELEMENT":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.98"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.98","ELEMENT":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.98"}]}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element/f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.98/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.129_0_6668_59.windows.Home_Page" name="should show the banner title" time="6.785">
+      <system-out><![CDATA[
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element - {"using":"css selector","value":".vl-banner__text-heading"}
+RESULT: {"using":"css selector","value":".vl-banner__text-heading"}
+COMMAND: GET /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element/f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.100/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.129_0_6668_59.windows.Home_Page" name="should contain link on banner button and verify it is clickable" time="0.815">
+      <system-out><![CDATA[
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element - {"using":"css selector","value":".vl-banner__cta a"}
+RESULT: {"using":"css selector","value":".vl-banner__cta a"}
+COMMAND: GET /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element/f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101/attribute/href - {}
+RESULT: {}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element - {"using":"css selector","value":".vl-banner__cta a"}
+RESULT: {"using":"css selector","value":".vl-banner__cta a"}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101","ELEMENT":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101","ELEMENT":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101"}]}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/execute/sync - {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101","ELEMENT":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101"}]}
+RESULT: {"script":"<script> [19 bytes]","args":[{"element-6066-11e4-a52e-4f735466cecf":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101","ELEMENT":"f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101"}]}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.129_0_6668_59.windows.Home_Page" name="should click on the sell button and verify the new url" time="2.184">
+      <system-out><![CDATA[
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/execute/sync - {"script":"<script> [19 bytes]","args":[]}
+RESULT: {"script":"<script> [19 bytes]","args":[]}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element - {"using":"css selector","value":".vl-banner__cta a"}
+RESULT: {"using":"css selector","value":".vl-banner__cta a"}
+COMMAND: POST /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/element/f.15C01FB39E3187A78ED2D73235DE02E1.d.381E5B7655BCAD0A3D45C13FF89E1EE9.e.101/click - {}
+RESULT: {}
+COMMAND: GET /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4/url - {}
+RESULT: {}
+COMMAND: DELETE /session/e527ae104bd8ed96cdfeabe059851e1f64b4c3d4 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
